@@ -8,12 +8,12 @@
     "dev": "nodemon index.js"
   },
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/LuCasserly/API-REST-CasserlyLucia.git"
   },
   "keywords": [],
   "author": "Lucia Casserly",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/LuCasserly/API-REST-CasserlyLucia/issues"
   },
