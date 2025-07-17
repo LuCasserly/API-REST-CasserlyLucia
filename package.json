@@ -1,14 +1,13 @@
 {
   "name": "api-rest-casserlylucia",
   "version": "1.0.0",
-  "description": ,
-  "main": "index.js",
+  "description": "Trabajo final node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-    "repository": {
+  "repository": {
     "type": "module",
     "url": "git+https://github.com/LuCasserly/API-REST-CasserlyLucia.git"
   },
@@ -19,5 +18,15 @@
     "url": "https://github.com/LuCasserly/API-REST-CasserlyLucia/issues"
   },
   "homepage": "https://github.com/LuCasserly/API-REST-CasserlyLucia#readme",
-  
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "firebase": "^11.10.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
