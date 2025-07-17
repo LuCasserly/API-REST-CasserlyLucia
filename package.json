@@ -19,8 +19,6 @@
   },
   "homepage": "https://github.com/LuCasserly/API-REST-CasserlyLucia#readme",
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "firebase": "^11.10.0",
