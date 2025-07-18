@@ -5,14 +5,14 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Bienvenidos a la API REST" });
+  res.json({ message: "Bienvenidos a la tienda virtual" });
 });
 
 import productsRouter from "./src/routes/products.router.js";
-app.use("/api", productsRouter);
+app.use("/api/products", productsRouter);
 
 import authRouter from "./src/routes/auth.router.js";
-app.use("/api/auth", authRouter);
+app.use("/auth", authRouter);
 
 const PORT = process.env.PORT || 3001;
 
